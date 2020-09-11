@@ -24,7 +24,7 @@ class oxygenAPI {
       return body;
       }
       async sifre(lenght) {
-        if (!lenght) throw new Error("Şifre oluşturucu genişliği girilmedi!")
+        if (!lenght) throw new Error("Şifre Uzunluğu Giriniz!")
         const { body } = await request.get("https://api.oxygenbot.cf/api/sifre"+ lenght +"?key="+ this.token);
           if (body.error) throw new Error('Bir sorun oluştu;\n'+ body.error); 
         return body.cikti
