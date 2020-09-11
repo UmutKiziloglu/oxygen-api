@@ -5,7 +5,7 @@ class oxygenAPI {
  
   this.token = key;  
     
-  if(!this.key) throw new Error('[VT] Anahtar Girilmemiş!');
+  if(!this.key) throw new Error('[API] Key Girilmemiş!');
  }
   
   async saat() {
