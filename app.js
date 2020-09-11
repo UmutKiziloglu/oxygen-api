@@ -3,7 +3,7 @@ const request = require('node-superfetch');
 class oxygenAPI {
   constructor(key) {
  
-  this.token = key;  
+  this.key = key;  
     
   if(!this.key) throw new Error('[API] Key Girilmemiş!');
  }
