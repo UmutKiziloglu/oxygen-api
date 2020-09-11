@@ -18,11 +18,6 @@ class oxygenAPI {
     if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  
     return body;
     }
-    async steam(q) {
-      const { body } = await request.get("https://api.oxygenbot.cf/api/steam?q="+ q +"&key="+ this.key);
-      if (body.error) throw new Error('Bir Problem Çıktı : ' + body.error);  
-      return body;
-      }
       async sifre(lenght) {
         if (!lenght) throw new Error("Şifre Uzunluğu Giriniz!")
         const { body } = await request.get("https://api.oxygenbot.cf/api/sifre"+ lenght +"?key="+ this.token);

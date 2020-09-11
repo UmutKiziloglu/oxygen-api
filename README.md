@@ -31,7 +31,7 @@ Main Dosyanınızın İçine Yazınız;
 
 ## Bilgilendirme
 
- - Modülde Şuan Sadece Saat API'si Var Yakın Zamanda Tüm API'ler Aktarılacak
+ - Modülde : "saat,steam,sifre" Bulunmaktadır Örnektedeki Gibi Uygulayarak Hepsini Çalıştırabilirsiniz
  - API Sitesi : api.oxygenbot.cf
  - Keyler Sadece Kurucu Tarafından Verilir
  - Kurucu :  ΘΧΨGΞΠ#1907 (312962543591096322)
