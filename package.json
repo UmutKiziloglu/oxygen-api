@@ -1,6 +1,6 @@
 {
   "name": "oxygen-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/UmutKiziloglu/oxygen-api.git"
   },
-  "author": "",
+  "author": "UmutKiziloglu",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/UmutKiziloglu/oxygen-api/issues"
