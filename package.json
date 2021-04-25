@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/UmutKiziloglu/oxygen-api#readme",
   "dependencies": {
-    "node-superfetch": "^0.1.11"
+    "node-superfetch": "^0.2.2"
   }
 }
